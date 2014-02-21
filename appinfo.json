@@ -1,0 +1,25 @@
+{
+    "versionLabel": "1.0",
+    "uuid": "2febc25e-398c-47e3-bc73-b5a18c894399",
+    "appKeys": {},
+    "longName": "People In Space?",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "Astronauts",
+    "companyName": "Cameron Bernhardt",
+    "watchapp": {
+        "watchface": false
+    },
+    "resources": {
+        "media": [
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "ASTRONAUT",
+                "file": "images/Astronaut-EVA_edit3.png"
+            }
+        ]
+    }
+}
