@@ -28,12 +28,12 @@ req.onload = function(e){
 			}else{
 				for(var i = 0; i < people.length; i++){
 					if(i !== people.length - 1){
-						craftString += people[i].name + ": " + people[i].craft + "\n";
+						craftString += people[i].name + ": " + people[i].craft + "\n\n";
 					}else{
 						craftString += people[i].name + ": " + people[i].craft;
 					}
 				}
-				Pebble.showSimpleNotificationOnPebble("How many people are in space?", response.number + "- " + pplString + ".\n\nLocations:\n" + craftString);
+				Pebble.showSimpleNotificationOnPebble("How many people are in space?", response.number + " people are in space...\n\n" + craftString);
 			}
 		}else{ console.log("Error"); }
 	}
