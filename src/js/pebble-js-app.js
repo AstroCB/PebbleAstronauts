@@ -26,17 +26,17 @@ req.onload = function(e){
 			if(sameCraft){
 				Pebble.showSimpleNotificationOnPebble("How many people are in space?",  response.number + "- " + pplString + ".\n\nThey all currently reside on the " + people[0].craft + ".");
 			}else{
-				for(var i = 0; i < people.length; i++){
-					if(i !== people.length - 1){
-						craftString += people[i].name + ": " + people[i].craft + "\n\n";
+				for(var j = 0; j < people.length; j++){
+					if(j !== people.length - 1){
+						craftString += people[j].name + ": " + people[j].craft + "\n\n";
 					}else{
-						craftString += people[i].name + ": " + people[i].craft;
+						craftString += people[j].name + ": " + people[j].craft;
 					}
 				}
 				Pebble.showSimpleNotificationOnPebble("How many people are in space?", response.number + " people are in space...\n\n" + craftString);
 			}
+			
 		}else{ console.log("Error"); }
 	}
-}
-
+};
 req.send(null);

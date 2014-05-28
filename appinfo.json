@@ -1,25 +1,29 @@
 {
+    "appKeys": {
+        "people": 0,
+        "crafts": 2,
+        "sameCraft": 1
+    },
+    "longName": "People In Space?",
+    "uuid": "2febc25e-398c-47e3-bc73-b5a18c894399",
+    "versionLabel": "2.1",
+    "companyName": "Cameron Bernhardt",
     "resources": {
         "media": [
             {
-                "menuIcon": true,
-                "name": "ASTRONAUT",
                 "file": "images/Astronaut-EVA_edit3.png",
-                "type": "png"
+                "type": "png",
+                "name": "ASTRONAUT",
+                "menuIcon": true
             }
         ]
     },
-    "longName": "People In Space?",
-    "appKeys": {},
     "watchapp": {
         "watchface": false
     },
-    "versionLabel": "2.1",
-    "shortName": "Astronauts",
-    "companyName": "Cameron Bernhardt",
     "capabilities": [
         ""
     ],
-    "versionCode": 2,
-    "uuid": "2febc25e-398c-47e3-bc73-b5a18c894399"
+    "shortName": "Astronauts",
+    "versionCode": 2
 }

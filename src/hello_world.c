@@ -4,13 +4,12 @@ Window *window;
 TextLayer *text_layer;
 TextLayer *text_layer_2;
 
-
-
 void handle_init(void) {
 	// Create a window and text layer
 	window = window_create();
 	text_layer = text_layer_create(GRect(0, 0, 144, 154));
 	text_layer_2 = text_layer_create(GRect(0, 75, 144, 154));
+
 	
 	// Set the text, font, and text alignment
 	text_layer_set_text(text_layer, "People Currently in Space?");
