@@ -7,4 +7,4 @@ Includes C file and PebbleJS companion for accessing the Open Notify Astros API.
 
 Image for Pebble Menu Icon from Wikimedia Commons.
 
-![Who's in Space? Available on the Pebble Appstore.](http://pblweb.com/badge/5307eed3ab1ae26bc700006c/black/large)
+![Who's in Space? Available on the Pebble App Store.](http://pblweb.com/badge/5307eed3ab1ae26bc700006c/black/large)
