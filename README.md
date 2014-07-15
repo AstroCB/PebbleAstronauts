@@ -3,7 +3,7 @@ PebbleAstronauts
 
 Application for the Pebble Smartwatch - quickly find out who's currently in space and where they are.
 
-Data is from the [Open Notify API](http://open-notify.org/Open-Notify-API/People-In-Space/), which is licensed under the [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US).
+Data provided by the [Open Notify API](http://open-notify.org/Open-Notify-API/People-In-Space/), which is licensed under the [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US).
 
 Image for menu icon from Wikimedia Commons.
 
